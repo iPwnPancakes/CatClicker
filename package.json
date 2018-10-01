@@ -1,0 +1,32 @@
+{
+  "name": "catclickerpremium",
+  "version": "0.3.0",
+  "description": "Cat clicker for udacity javascript design patterns course",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serve ./public/",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "phantom": "./node_modules/.bin/casperjs"
+  },
+  "keywords": [
+    "cat",
+    "clicker",
+    "daniel",
+    "buenrrostro"
+  ],
+  "author": "Daniel Buenrrostro",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "chai": "^3.5.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "mocha": "^3.4.1",
+    "mocha-phantomjs": "^4.1.0",
+    "phantomjs": "^2.1.7",
+    "serve": "^10.0.2",
+    "webpack": "^2.5.1"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cat Clicker Pro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Cat Clicker Pro</h1>
+
+    <div class="menu">
+        <h2>Select A Cat!</h2>
+        <ul id="menu"></ul>
+    </div>
+    <div id="CatDetails">
+        <div id="catspace">
+            <h2 id="catHeader"></h2>
+            <p id="catCounter"></p>
+            <img id="catImg"></img>
+        </div>
+        <div id="admin">
+            <button id="admin-btn">Change Info</button>
+            <div id="admin-form">
+
+                <label for="CatName">Name: </label>
+                <input type="text" id="admin-CatName" name="CatName"><br />
+
+                <label for="CatImgSrc">Image Url: </label>
+                <input type="text" id="admin-CatUrl" name="CatImgSrc"><br />
+
+                <label for="CatCount" name="CatCount">Click Amount: </label>
+                <input type="text" id="admin-CatCount" name="CatCount"><br />
+
+                <button type="submit" id="admin-Submit">Submit</button>
+                <button id="admin-Cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.bundle.js"></script>
+
+</body>
+
+</html>
